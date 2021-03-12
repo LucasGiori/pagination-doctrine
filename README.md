@@ -1,9 +1,6 @@
 
 [![Minimum PHP Version](https://img.shields.io/badge/php-%5E8.0-blue)](https://php.net/)
-[![Latest Stable Version](https://poser.pugx.org/kadudutra/pagination-doctrine/v/stable.svg)](https://packagist.org/packages/lucasgiori/pagination-doctrine)
-[![Latest Unstable Version](https://poser.pugx.org/kadudutra/pagination-doctrine/v/unstable.svg)](https://packagist.org/packages/lucasgiori/pagination-doctrine)
 [![License](https://poser.pugx.org/lucasgiori/pagination-doctrine/license.svg)](https://packagist.org/packages/lucasgiori/pagination-doctrine)
-[![Total Downloads](https://poser.pugx.org/lucasgiori/pagination-doctrine/downloads)](https://packagist.org/packages/lucasgiori/pagination-doctrine)
 
 This library provides a paginated repository and collection for Doctrine.
 
@@ -222,5 +219,5 @@ $prevPage = $result->getPrevPage(); // 4
 ```
 
 ```php 
-repository_forked = "https://github.com/javihgil/doctrine-pagination"
+repository_forked = "https://github.com/kadudutra/doctrine-pagination"
 ```
