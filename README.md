@@ -217,7 +217,3 @@ $nextPage = $result->getNextPage(); // 6
 // get prev page number
 $prevPage = $result->getPrevPage(); // 4
 ```
-
-```php 
-repository_forked = "https://github.com/kadudutra/doctrine-pagination"
-```
