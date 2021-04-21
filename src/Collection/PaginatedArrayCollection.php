@@ -116,6 +116,17 @@ class PaginatedArrayCollection implements JsonSerializable
         return $this;
     }
 
+    public function getData(): array|null
+    {
+        return $this->data;
+    }
+
+    public function setData(array|null $data): PaginatedArrayCollection
+    {
+        $this->data = $data;
+        return $this;
+    }
+
     private function mountUrl(int $page): string
     {
         $order = '';
