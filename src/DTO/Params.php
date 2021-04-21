@@ -14,9 +14,9 @@ class Params
 
     private array|null $criteria = [];
 
-    private string|null $sort = '';
+    private string|null $sort = 'ASC';
 
-    private string|null $order = 'ASC';
+    private string|null $order = '';
 
     private string|null $search = '';
 
@@ -105,7 +105,7 @@ class Params
     public function getOrderBy(): array|null|string
     {
         if ($this->getSort() && $this->getOrder()) {
-            return [$this->getSort() => $this->getOrder()];
+            return [$this->getOrder() => $this->getSort()];
         }
 
         return [];
